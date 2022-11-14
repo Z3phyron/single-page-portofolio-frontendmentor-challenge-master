@@ -1,0 +1,20 @@
+.card-grid {
+  position: relative;
+  border-radius: 8px;
+}
+.card-grid-image {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.card-grid-text {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+  bottom: 24px;
+  left: 24px;
+  position: absolute;
+}

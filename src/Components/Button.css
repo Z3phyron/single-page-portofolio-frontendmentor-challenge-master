@@ -1,0 +1,37 @@
+.black-button {
+  background-color: black;
+  color: white;
+}
+.black-button:active {
+  background-color: #755cde;
+}
+.orange-button {
+  background-color: #eb7565;
+}
+.orange-button:active {
+  background-color: #f6a560;
+}
+.arrow-button {
+  padding: 24px;
+  border-radius: 50%;
+  border: none;
+}
+.text-btn {
+  padding-inline: 27px;
+  padding-block: 8px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 28px;
+  color: white;
+  outline: none;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .text-btn {
+    padding-inline: 45px;
+    padding-block: 14px;
+  }
+}
